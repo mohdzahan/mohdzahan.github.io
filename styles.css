@@ -85,7 +85,7 @@ nav .right a{
     width: 350px
 }
 
-/* SECTION 2 SKILLS */
+/* SECTION 3 SKILLS */
 
 .skills-section{
     padding:0 50px ;
@@ -127,6 +127,44 @@ nav .right a{
 }
 .skills-section .cells .cell .spam{
 font-size: 80px;
+}
+/* SECTION 4 Testimony */
+.testimony-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.testimony-section h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.testimony-section.group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.testimony-section.group.person-details{
+    text-align: center;
+    flex: 2;
+}
+
+.testimony-section.group.text{
+    flex: 8;
+}
+.testimony-section.testimony-section.group img{
+    aspect-ratio: 1/1;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimony-section.testimony-section.group p{
+    font-weight: normal;
+    
+}
+.testimony-section{
+    text-align: center;
 }
 
 
@@ -175,5 +213,9 @@ font-size: 80px;
 .skills-section.cell.cells span{
     font-size: 16px;
 }
+/* SECTION 4: TESTIMONY */
 
+.testimony-section .group{
+    flex-direction: column;
+}
 
