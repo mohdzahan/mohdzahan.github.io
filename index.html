@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "styles.css"> 
+    <link rel="stylesheet" href="styles.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>Mohammed Zahan | Portfolio </title>
+    <title>Mohammed Zahan | Portfolio</title>
 </head>
 <body>
-    <!--NAV BAR-->
+    <!-- NAV BAR -->
     <nav>
         <div class="left">
             <a href="/">Mohammed Zahan</a>
@@ -37,122 +36,137 @@
         </div>
     </nav>
     <main>
-        <!--SECTION 1: HERO-->
-        <section class = "hero-section">
+        <!-- SECTION 1: HERO -->
+        <section class="hero-section">
             <div class="text">
-                <h2>Hi I'm Zahan 👋🏼 </h2>
+                <h2>Hi I'm Zahan 👋🏼</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et facilis dignissimos repellendus placeat debitis animi cumque dicta sint pariatur nulla consequatur, excepturi vero quidem aliquid est dolor error ratione exercitationem rem quaerat illum voluptatem officia voluptate perferendis. Error dolorem nesciunt aperiam placeat repellendus sint quod, eius dicta? Voluptatibus, quam eius!</p>
                 <div class="links">
-                <a href="#skills">
-                    <i class="fa-solid fa-code"></i>
-                    <span>Skills</span>
-                </a>
-                <a href="#testimony">
-                    <i class="fa-solid fa-pen"></i>
-                    <span>testimony</span>
-                </a>
-                <a href="#contact">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>Contact</span>
-                </a>
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
                 </div>
             </div>
             <div class="headshot">
-                <img src="Images/Headshop.webp" alt="Mohammed Zahan"> 
+                <img src="Images/Headshot.webp" alt="Mohammed Zahan"> 
             </div>
         </section>
 
-        <!--SECTION 2: PROJECTS-->
-        <section id="projects"></section>   
-        <!--SECTION 3: SKILLS-->
+        <!-- SECTION 2: PROJECTS -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="text">
+                Here are some of my notable projects. Click the GitHub button to view the source code.
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="Images/project1.webp" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit sint minus sunt animi non.</p>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="github-btn">
+                        <i class="fa-brands fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="Images/project2.webp" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit sint minus sunt animi non.</p>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="github-btn">
+                        <i class="fa-brands fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="Images/project3.webp" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit sint minus sunt animi non.</p>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="github-btn">
+                        <i class="fa-brands fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SKILLS -->
         <section id="skills" class="skills-section">
             <h2>Skills</h2>
             <div class="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quaerat blanditiis magnam, dolore vel obcaecati, explicabo iusto animi rem ad tenetur nemo consectetur corporis nulla.
             </div>
-
-
-        <div class="cells">
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Python">
-                <span>Python</span>
+            <div class="cells">
+                <div class="cell">
+                    <img src="Images/Python.svg.webp" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="cell">
+                    <img src="Images/R.svg.webp" alt="R">
+                    <span>R</span>
+                </div>
+                <div class="cell">
+                    <img src="Images/PyTorch.svg.webp" alt="PyTorch">
+                    <span>PyTorch</span>
+                </div>
+                <div class="cell">
+                    <img src="Images/Tensorflow.svg.webp" alt="Tensorflow">
+                    <span>Tensorflow</span>
+                </div>
+                <div class="cell">
+                    <img src="Images/Numpy.svg.webp" alt="Numpy">
+                    <span>Numpy</span>
+                </div>
+                <div class="cell">
+                    <img src="Images/Pandas.svg.webp" alt="Pandas">
+                    <span>Pandas</span>
+                </div>
             </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="R">
-                <span>R</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="PyTorch">
-                <span>PyTorch</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Tensorflow">
-                <span>Tensorflow</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Numpy">
-                <span>Numpy</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Pandas">
-                <span>Pandas</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Numpy">
-                <span>Numpy</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Numpy">
-                <span>Numpy</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Numpy">
-                <span>Numpy</span>
-            </div>
-            <div class="cell">
-                <img src="Images/Python.svg.webp" alt="Numpy">
-                <span>Numpy</span>
-            </div>
-        </div>
-
-
         </section>
-        <!--SECTION 4: TESTIMONY-->
+
+        <!-- SECTION 4: TESTIMONY -->
         <section id="testimony" class="testimony-section">
             <h2>Testimony</h2>
             <div class="group">
-            <div class="person-details">
-                <img src="Images/Headshop.webp">
-                <p>Mohammed Zahan</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit sint minus sunt animi non, omnis expedita at delectus praesentium nam repudiandae tempora quas ab dolore voluptatem amet dolores fuga quos incidunt placeat! Rerum reprehenderit dicta odio saepe iure, atque ullam doloribus aliquid vel nemo inventore, accusantium consequatur, deserunt obcaecati?
-            </div>
+                <div class="person-details">
+                    <img src="Images/Headshot.webp" alt="Mohammed Zahan">
+                    <p>Mohammed Zahan</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit sint minus sunt animi non, omnis expedita at delectus praesentium nam repudiandae tempora quas ab dolore voluptatem amet dolores fuga quos incidunt placeat! Rerum reprehenderit dicta odio saepe iure, atque ullam doloribus aliquid vel nemo inventore, accusantium consequatur, deserunt obcaecati?
+                </div>
             </div>
         </section>
-        <!--SECTION 5: CONTACT-->
+
+        <!-- SECTION 5: CONTACT -->
         <section id="contact" class="contact-section">
             <h2>Contact</h2>
             <div class="group">
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium suscipit! Esse quos libero quasi consequatur molestias! Distinctio porro at quia, labore quo rerum aliquid, nostrum molestiae blanditiis nihil qui sed aperiam natus sunt optio fuga. Laboriosam temporibus, dicta quia non inventore ipsam quidem aut facere? Perferendis recusandae totam commodi?
-
                 </div>
-            <form >
-                <label for="name">Name</label>
-                <input type="text" id="name">
+                <form action="mailto:mohammedzahan03@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="Email">Email</label>
-                <input type="text" id="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="Message">Message</label>
-                <textarea id="message" cols="30" rows="10"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
 
-                <button type="submit">Send Message</button>
-
-
-            </form>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
